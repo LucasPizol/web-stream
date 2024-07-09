@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webstream é o terror</title>
+
+    <style>
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+        align-items: stretch;
+      }
+      .grid article {
+        border: 1px solid #ccc;
+      }
+      .grid .text {
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <div class="container">
+      <main id="cards">
+        <article>
+          <div class="text">
+            <h3>Hello item</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
+              similique omnis soluta minus? Maiores quas consectetur nemo nulla
+              nostrum molestias saepe blanditiis neque, temporibus quisquam cum,
+              fugiat quaerat ex enim.
+            </p>
+            <a href="http://">Here's why</a>
+          </div>
+        </article>
+      </main>
+    </div>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
